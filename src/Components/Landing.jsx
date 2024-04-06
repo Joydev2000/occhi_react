@@ -3,7 +3,7 @@ import { FaArrowUpLong } from "react-icons/fa6";
 
 function Landing() {
   return (
-    <div className="w-full py-1 h-full text-white">
+    <div className="w-full py-1 h-screen text-white">
         <div className="texttexture   mt-60 px-20">
             {["WE CREATE","EYE-OPENING","PRESENTATIONS"].map((items, index) => {
                  return <div className="markars flex items-end">
