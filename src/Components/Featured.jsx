@@ -14,7 +14,7 @@ function Featured() {
     cards[index].start({y : "100%"})
   }
   return (
-    <div className="bg-black w-full py-40 ">
+    <div className="bg-black w-full py-40 relative">
         <div className="w-full px-20 border-b-[1px] pb-16 border-zinc-700">
         <h1 className="text-white text-7xl">Featured Projects</h1>
         </div>

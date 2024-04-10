@@ -20,7 +20,7 @@ function Eyes() {
   }, []);
   
   return (
-    <div className="w-full h-screen overflow-hidden">
+    <div className="w-full h-screen overflow-hidden relative">
       <div className="w-full relative bg-fixed h-screen bg-no-repeat bg-cover bg-center bg-[url(https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-1440x921.jpg)]">
         <div className=" flex gap-10 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 ">
           <div className=" relative  flex items-center justify-center bg-white w-[15vw] h-[15vw] rounded-full cursor-pointer">
